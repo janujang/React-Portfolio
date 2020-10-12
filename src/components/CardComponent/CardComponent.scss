@@ -1,0 +1,25 @@
+@import '../../styles/colors.scss';
+
+.CardCol {
+    padding: 15px;
+}
+.Card {
+    background-color: white;
+    color: $base-navy-blue;
+    font-size: 0.8em;
+    text-align: center;
+    border-radius: 9px;
+    padding: 10px;
+    height: 100%;
+    // margin: 10px;
+    ul {
+        text-align: cent;
+    }
+
+    .card {
+        border: none;
+    }
+    .card-body {
+        padding: 0;
+    }
+}

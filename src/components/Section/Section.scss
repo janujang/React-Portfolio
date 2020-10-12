@@ -1,0 +1,34 @@
+@import '../../styles/colors.scss';
+
+.sectionContainer {
+    padding: 0;
+    // background: $base-navy-blue;
+    background: rgba(0, 0, 0, 0.348);
+    margin: 40px;
+    border-radius: 16px;
+    transition: 1s;
+    &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    min-height: 500px;
+    .title {
+        padding: 20px;
+        border-radius: 16px 16px 0 0;
+        // background: $base-blue;
+        background: rgba(0, 0, 0, 0.348);
+        // display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    .content {
+        color: white;
+        // display: flex;
+        // flex-direction: row;
+        // align-items: center;
+        // justify-content: space-evenly;
+        font-size: 24px;
+        padding: 20px;
+    }
+}

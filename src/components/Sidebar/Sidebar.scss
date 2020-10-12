@@ -1,0 +1,60 @@
+@import '../../styles/colors.scss';
+
+.Sidebar {
+    /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+    }
+    // position: fixed;
+    // z-index: 1;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    perspective: 500px;
+    background: $base-navy-blue2;
+    // background: linear-gradient(180deg, #05f, #09f);
+
+    // background: -webkit-linear-gradient(to bottom, #8e9eab, #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(
+    //     to bottom,
+    //     #8e9eab,
+    //     #eef2f3
+    // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    .linksContainer {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // height: 100%;
+
+        .item {
+            width: 100%;
+            color: $base-navy-blue2;
+            text-decoration: none;
+            padding: 20px 20px;
+            font-size: 24px;
+            color: white;
+
+            // &:hover {
+            //     &.about {
+            //         background-color: $base-light-blue;
+            //     }
+            //     &.experience {
+            //         background-color: $base-red;
+            //     }
+            //     &.projects {
+            //         background-color: $base-dark-blue;
+            //         color: white;
+            //     }
+            //     &.contact {
+            //         background-color: $base-navy-blue2;
+            //         color: white;
+            //     }
+            //     // background-color: rgba(221, 221, 221, 0.145);
+            // }
+        }
+    }
+}

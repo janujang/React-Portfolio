@@ -1,0 +1,29 @@
+@import '../../styles/colors.scss';
+
+.landingScreenContainer {
+    padding: 0;
+    background: white;
+    // background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .landingScreenRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .main-title {
+            text-transform: uppercase;
+            font-size: 3.2em;
+            letter-spacing: 0.1em;
+        }
+
+        .thin {
+            font-weight: 200;
+        }
+    }
+}
