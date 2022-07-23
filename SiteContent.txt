@@ -1,0 +1,19 @@
+ABOUT:
+I am a 2nd year computer engineering student at the University of Waterloo pursuing a hardware and software path. I have experience working on various kinds of projects, ranging from architectural oriented to software. I have interest in various aspects of software development as well as hardware design. 
+<Button>Download Resume<file:src/Resume.pdf</Button>
+EXPERIENCE:
+<Card>
+SOFTWARE
+Co-developed a pathfinding application for the Microsoft HoloLens
+Designed a bistro application for staff members to reserve food
+Proficient in various languages and web development
+<Card>
+HARDWARE
+Emloyed VHDL based FPGA development in circuits labs
+Designed a control and automation system using LabVIEW
+Built an embedded system to track customer flow using an OMEGA board
+<Card>
+DESIGN
+Designed floor plans and a 3-D model for a residential suite on AutoCAD
+Designed and built a 3-D model for a modern library using Revit
+Designed and engineered a robot for VEX Robotics competitions
